@@ -1,0 +1,7 @@
+deploy:
+  terraform:
+    plan: false
+  git_push:
+    branch: master
+    remote: git@github.com:jeffastorey/drone-test.git
+    force: false
